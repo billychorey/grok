@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic);
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+/* line 11, ../scss/style.scss */
+.clearfix {
+  zoom: 1;
+}
+/* line 13, ../scss/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 17, ../scss/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 22, ../scss/style.scss */
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/***** SITE STYLES *************/
+/* line 29, ../scss/style.scss */
+body {
+  font-family: 'Asap', sans-serif;
+}
+
+/* line 32, ../scss/style.scss */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 39, ../scss/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 42, ../scss/style.scss */
+.yellow {
+  color: #EFECCA;
+}
+
+/**********************************/
+/***** generic styles beginning with mobile header ****/
+/* line 47, ../scss/style.scss */
+header {
+  display: block;
+  background: #002F2F;
+  padding: 4%;
+  margin: 0 auto;
+}
+/* line 52, ../scss/style.scss */
+header ul {
+  display: inline-block;
+  width: 31%;
+  vertical-align: top;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+/* line 60, ../scss/style.scss */
+header ul li {
+  display: inline-block;
+  width: 15%;
+  vertical-align: top;
+}
+/* line 66, ../scss/style.scss */
+header ul a {
+  display: block;
+  color: #EFECCA;
+}
+/* line 71, ../scss/style.scss */
+header ul img {
+  width: 100%;
+}
+/* line 75, ../scss/style.scss */
+header .grok_header_logo {
+  display: inline-block;
+  width: 25%;
+  padding: 20px 7.5%;
+  vertical-align: top;
+}
+/* line 81, ../scss/style.scss */
+header .header_right {
+  display: inline-block;
+  width: 27%;
+  text-align: right;
+  vertical-align: top;
+  font-size: .8em;
+}
+/* line 87, ../scss/style.scss */
+header .header_right a {
+  color: #EFECCA;
+}
+/* line 90, ../scss/style.scss */
+header .header_right p {
+  vertical-align: bottom;
+  color: #EFECCA;
+}
+
+/* line 97, ../scss/style.scss */
+.featured_content {
+  margin: 0 auto;
+  background: #046380;
+  color: #EFECCA;
+  text-align: center;
+  padding: 40px 0;
+}
+/* line 105, ../scss/style.scss */
+.featured_content h1 {
+  margin-top: 0;
+}
+/* line 108, ../scss/style.scss */
+.featured_content p {
+  margin-bottom: 40px;
+}
+/* line 111, ../scss/style.scss */
+.featured_content a {
+  color: #FF6D38;
+  border: solid 2px #FF6D38;
+  padding: 4%;
+}
+
+/* line 117, ../scss/style.scss */
+.descriptions {
+  background: #EFECCA;
+  color: #002f2f;
+  padding: 40px 0;
+}
+
+/* line 123, ../scss/style.scss */
+.keynote_speakers {
+  background: #002f2f;
+  color: #EFECCA;
+  padding: 40px 0;
+}
+/* line 127, ../scss/style.scss */
+.keynote_speakers img {
+  padding-bottom: 40px;
+}
+/* line 131, ../scss/style.scss */
+.keynote_speakers .links img {
+  padding-bottom: 0;
+}
+/* line 134, ../scss/style.scss */
+.keynote_speakers .links ul {
+  display: block;
+  padding: 0;
+}
+/* line 137, ../scss/style.scss */
+.keynote_speakers .links ul li {
+  display: inline-block;
+  width: 7%;
+  margin-right: 5%;
+}
+/* line 141, ../scss/style.scss */
+.keynote_speakers .links ul li a {
+  padding: 4%;
+}
+
+/* line 149, ../scss/style.scss */
+.brown_background {
+  background: #A7A37E;
+  padding: 40px 0;
+}
+/* line 152, ../scss/style.scss */
+.brown_background .bluebox {
+  background: #046380;
+  color: #EFECCA;
+  list-style: none;
+  padding: 4%;
+}
+/* line 158, ../scss/style.scss */
+.brown_background .bluebox a {
+  color: #EFECCA;
+}
+
+/* line 163, ../scss/style.scss */
+.register_now {
+  background: #002f2f;
+  color: #EFECCA;
+  padding: 40px 0;
+}
+
+/* line 168, ../scss/style.scss */
+footer {
+  background: #002f2f;
+  color: #EFECCA;
+  padding: 40px 0;
+}

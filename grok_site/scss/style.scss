@@ -1,0 +1,182 @@
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic);
+$green: #002f2f;
+$tan: #A7A37E;
+$yellow: #EFECCA;
+$orange: #FF6D38;
+$blue: #046380;
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+
+.clearfix {
+    zoom: 1;
+    &:before, &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/***** SITE STYLES *************/
+body{
+	font-family: 'Asap', sans-serif;
+}
+img{
+	max-width:100%;
+	display:block;
+	margin:0 auto;
+}
+ul{
+}
+a{
+	text-decoration:none;
+}
+.yellow{
+	color:$yellow;
+}
+/**********************************/
+/***** generic styles beginning with mobile header ****/
+header{
+	display:block;
+	background:#002F2F;
+	padding:4%;
+	margin:0 auto;
+	ul{
+		display:inline-block;
+		width:31%;
+		vertical-align:top;
+		list-style:none;
+		padding:0;
+		margin-top:0;
+	
+		li{
+			display:inline-block;
+			width:15%;
+			vertical-align:top;
+		}
+
+		a{
+			display: block;
+			color:#EFECCA;
+		}
+
+		img{
+			width: 100%;
+		}
+	}
+	.grok_header_logo{
+		display:inline-block;
+		width:25%;
+		padding:20px 7.5%;
+		vertical-align:top;
+	}
+	.header_right{
+		display:inline-block;
+		width:27%;
+		text-align:right;
+		vertical-align:top;
+		font-size:.8em;
+			a{
+				color:$yellow;
+			}
+			p{
+				vertical-align:bottom;
+				color:$yellow;
+			}
+	}		
+}
+
+.featured_content{
+	// background: url(../img/caveman.jpg);
+	// background-size:100%;
+	margin:0 auto;
+	background:$blue;
+	color:$yellow;
+	text-align:center;
+	padding:40px 0;
+		h1{
+			margin-top:0;
+		}
+		p{
+			margin-bottom:40px;
+		}
+		a{
+			color:$orange;
+			border:solid 2px $orange;
+			padding:4%;
+		}
+}
+.descriptions{
+	background:$yellow;
+	color:$green;
+	padding: 40px 0;
+
+}
+.keynote_speakers{
+	background:$green;
+	color:$yellow;
+	padding:40px 0;
+		img{
+			padding-bottom:40px;
+		}
+		.links{
+			img{
+				padding-bottom:0;
+			}
+			ul{
+				display:block;
+				padding:0;
+				li{
+					display:inline-block;
+					width:7%;
+					margin-right:5%;
+					a{
+						padding:4%;
+					}
+				}
+			}
+		}
+}
+
+.brown_background{
+	background:$tan;
+	padding:40px 0;
+		.bluebox{
+			background:$blue;
+			color:$yellow;
+			list-style:none;
+			padding:4%;
+
+				a{
+					color:$yellow;
+				}
+		}
+}
+.register_now{
+	background:$green;
+	color:$yellow;
+	padding:40px 0;
+}
+footer{
+	background:$green;
+	color:$yellow;
+	padding:40px 0;
+}
+
+
+
+@media screen and (min-width: 700px) {}
+
+
+
+
+
+
