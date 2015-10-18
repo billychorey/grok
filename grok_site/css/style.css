@@ -123,165 +123,175 @@ header .grok_dates p {
 .featured_content {
   margin: 0 auto;
   background: #046380;
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
   color: #EFECCA;
   text-align: center;
   padding: 40px 0;
 }
-/* line 127, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .featured_content h1 {
   margin-top: 0;
 }
-/* line 130, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 .featured_content p {
   margin-bottom: 40px;
 }
-/* line 133, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 .featured_content a {
   color: #FF6D38;
   border: solid 2px #FF6D38;
   padding: 4%;
 }
 
-/* line 139, ../scss/style.scss */
+/* line 142, ../scss/style.scss */
 .descriptions {
   background: #EFECCA;
   color: #002f2f;
   padding: 40px 0;
 }
 
-/* line 145, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
 .keynote_speakers {
   background: #002f2f;
   color: #EFECCA;
   padding: 40px 0;
 }
-/* line 149, ../scss/style.scss */
+/* line 152, ../scss/style.scss */
 .keynote_speakers img {
   padding-bottom: 40px;
 }
-/* line 152, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 .keynote_speakers .carl {
   margin-bottom: 40px;
 }
-/* line 154, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 .keynote_speakers .carl img {
   float: right;
   margin: 0 0 10px 15px;
 }
-/* line 160, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 .keynote_speakers .aaron img {
   float: right;
   margin: 0 0 10px 15px;
 }
-/* line 166, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 .keynote_speakers .links img {
   padding-bottom: 0;
 }
-/* line 169, ../scss/style.scss */
+/* line 173, ../scss/style.scss */
 .keynote_speakers .links ul {
   display: block;
   padding: 0;
 }
-/* line 172, ../scss/style.scss */
+/* line 176, ../scss/style.scss */
 .keynote_speakers .links ul li {
   display: inline-block;
   width: 15%;
 }
-/* line 176, ../scss/style.scss */
+/* line 180, ../scss/style.scss */
 .keynote_speakers .links ul li a {
   padding: 4%;
 }
 
-/* line 184, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 .brown_background {
   background: #A7A37E;
   padding: 40px 0;
 }
-/* line 189, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 .brown_background .entertainment img {
   width: 40%;
   float: right;
   margin: 0 0 15px 20px;
 }
-/* line 195, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 .brown_background .bluebox {
   background: #046380;
   color: #EFECCA;
   list-style: none;
   padding: 4%;
 }
-/* line 200, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 .brown_background .bluebox ul {
   display: block;
   list-style: none;
   padding: 0;
 }
 
-/* line 209, ../scss/style.scss */
+/* line 214, ../scss/style.scss */
 .links {
   display: block;
 }
-/* line 211, ../scss/style.scss */
+/* line 216, ../scss/style.scss */
 .links li {
   display: inline-block;
   width: 20%;
   vertical-align: middle;
   margin-right: 4%;
 }
-/* line 217, ../scss/style.scss */
+/* line 222, ../scss/style.scss */
 .links a {
   color: #EFECCA;
   font-weight: bolder;
   text-decoration: underline;
 }
-/* line 222, ../scss/style.scss */
+/* line 226, ../scss/style.scss */
+.links a img {
+  max-height: 30px;
+}
+/* line 230, ../scss/style.scss */
 .links a:hover {
   color: #FF6D38;
 }
 
-/* line 227, ../scss/style.scss */
+/* line 235, ../scss/style.scss */
 .register_now {
   background: #002f2f;
   color: #EFECCA;
   padding: 40px 0;
 }
 
-/* line 234, ../scss/style.scss */
+/* line 242, ../scss/style.scss */
+.brown_background h1 {
+  color: #002f2f;
+}
+/* line 245, ../scss/style.scss */
 .brown_background ul {
   list-style: none;
   padding: 0;
 }
-/* line 238, ../scss/style.scss */
+/* line 249, ../scss/style.scss */
 .brown_background .days {
   background: #eee;
   padding: 4%;
   margin-bottom: 20px;
   box-shadow: -10px 10px 5px #9b9672;
 }
-/* line 243, ../scss/style.scss */
+/* line 254, ../scss/style.scss */
 .brown_background .days h3 {
   margin-top: 0;
 }
-/* line 246, ../scss/style.scss */
+/* line 257, ../scss/style.scss */
 .brown_background .days h4 {
   font-size: .8em;
 }
-/* line 249, ../scss/style.scss */
+/* line 260, ../scss/style.scss */
 .brown_background .days h5 {
   margin: 0;
 }
-/* line 252, ../scss/style.scss */
+/* line 263, ../scss/style.scss */
 .brown_background .days p {
   margin-top: 0;
   margin-bottom: .5em;
 }
 
-/* line 258, ../scss/style.scss */
+/* line 269, ../scss/style.scss */
 .schedule_buttons {
   display: block;
   margin-bottom: 30px;
 }
-/* line 261, ../scss/style.scss */
+/* line 272, ../scss/style.scss */
 .schedule_buttons a {
   display: block;
   float: left;
@@ -292,46 +302,158 @@ header .grok_dates p {
   padding: 20px 0;
   margin-right: 1%;
 }
-/* line 271, ../scss/style.scss */
+/* line 282, ../scss/style.scss */
 .schedule_buttons a:last-child {
   margin-right: 0;
 }
-/* line 274, ../scss/style.scss */
+/* line 285, ../scss/style.scss */
 .schedule_buttons a:hover {
   background: #244f4f;
+  box-shadow: -5px 10px 5px #9b9672;
 }
 
-/* line 279, ../scss/style.scss */
+/* line 291, ../scss/style.scss */
 footer {
   background: #002f2f;
   color: #EFECCA;
   padding: 40px 0;
 }
-/* line 284, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 footer ul {
   display: inline-block;
   vertical-align: top;
   list-style: none;
   padding: 0;
-  margin-top: 0;
+  margin: 30px auto;
 }
-/* line 291, ../scss/style.scss */
+/* line 303, ../scss/style.scss */
 footer ul li {
   display: inline-block;
-  width: 15%;
+  width: 10%;
   vertical-align: top;
+  margin-right: 5%;
 }
-/* line 297, ../scss/style.scss */
+/* line 310, ../scss/style.scss */
 footer ul a {
   color: #EFECCA;
 }
-/* line 302, ../scss/style.scss */
+/* line 315, ../scss/style.scss */
 footer ul img {
   width: 100%;
 }
-@media screen and (min-width: 650px) {
-  /* line 312, ../scss/style.scss */
-  footer .featured_content {
+/* line 318, ../scss/style.scss */
+footer ul .copyright {
+  font-size: .3em;
+}
+
+@media screen and (min-width: 700px) {
+  /* line 332, ../scss/style.scss */
+  .grok_header_logo img {
+    max-width: 150px;
+  }
+
+  /* line 337, ../scss/style.scss */
+  .featured_content {
     background: url(../img/caveman.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 260px;
+    padding-bottom: 70px;
+  }
+  /* line 345, ../scss/style.scss */
+  .featured_content p {
+    padding-bottom: 30px;
+  }
+
+  /* line 352, ../scss/style.scss */
+  .whatare1020s {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+  }
+
+  /* line 357, ../scss/style.scss */
+  .session_leaders {
+    float: right;
+    width: 48%;
+  }
+
+  /* line 363, ../scss/style.scss */
+  .keynote_speakers h3 {
+    margin-top: 0;
+  }
+
+  /* line 368, ../scss/style.scss */
+  .carl {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+  }
+
+  /* line 374, ../scss/style.scss */
+  .aaron {
+    float: right;
+    width: 48%;
+  }
+
+  /* line 381, ../scss/style.scss */
+  .entertainment {
+    float: left;
+    width: 40%;
+    line-height: 1.4;
+  }
+
+  /* line 388, ../scss/style.scss */
+  .details {
+    float: right;
+    width: 40%;
+    padding-bottom: 90px;
+  }
+  /* line 393, ../scss/style.scss */
+  .details h3 {
+    margin-bottom: 0;
+  }
+
+  /* line 398, ../scss/style.scss */
+  .address {
+    margin-bottom: 15px;
+  }
+  /* line 400, ../scss/style.scss */
+  .address .streetaddress {
+    float: left;
+    width: 50%;
+  }
+  /* line 404, ../scss/style.scss */
+  .address .links {
+    float: left;
+    margin-left: 3%;
+    width: 30%;
+  }
+
+  /* line 413, ../scss/style.scss */
+  .bluebox h2 {
+    margin-top: 0;
+  }
+
+  /* line 418, ../scss/style.scss */
+  .register_now .button {
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  /* line 424, ../scss/style.scss */
+  .days {
+    width: 35%;
+  }
+  /* line 426, ../scss/style.scss */
+  .days li {
+    margin: 15px,auto;
+  }
+}
+@media screen and (min-width: 900px) {
+  /* line 436, ../scss/style.scss */
+  .sponsors {
+    width: 45%;
   }
 }
