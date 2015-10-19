@@ -336,12 +336,14 @@ $blue: #046380;
 
 	.featured_content{
 		
-		background: url(../img/caveman.jpg);
+		background: url(../img/caveman2.jpg), $green;
+		background-attachment: fixed;
     	background-size: cover;
-    	background-position:bottom;
+    	background-position:center;
     	background-repeat: no-repeat;
     	padding-top:260px;
     	padding-bottom:70px;
+    	color:$yellow;
     		p{
     			padding-bottom:30px;
     		}

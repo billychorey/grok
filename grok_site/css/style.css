@@ -354,105 +354,107 @@ footer ul .copyright {
 
   /* line 337, ../scss/style.scss */
   .featured_content {
-    background: url(../img/caveman.jpg);
+    background: url(../img/caveman2.jpg), #002f2f;
+    background-attachment: fixed;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     padding-top: 260px;
     padding-bottom: 70px;
+    color: #EFECCA;
   }
-  /* line 345, ../scss/style.scss */
+  /* line 347, ../scss/style.scss */
   .featured_content p {
     padding-bottom: 30px;
   }
 
-  /* line 352, ../scss/style.scss */
+  /* line 354, ../scss/style.scss */
   .whatare1020s {
     float: left;
     width: 48%;
     margin-right: 4%;
   }
 
-  /* line 357, ../scss/style.scss */
+  /* line 359, ../scss/style.scss */
   .session_leaders {
     float: right;
     width: 48%;
   }
 
-  /* line 363, ../scss/style.scss */
+  /* line 365, ../scss/style.scss */
   .keynote_speakers h3 {
     margin-top: 0;
   }
 
-  /* line 368, ../scss/style.scss */
+  /* line 370, ../scss/style.scss */
   .carl {
     float: left;
     width: 48%;
     margin-right: 4%;
   }
 
-  /* line 374, ../scss/style.scss */
+  /* line 376, ../scss/style.scss */
   .aaron {
     float: right;
     width: 48%;
   }
 
-  /* line 381, ../scss/style.scss */
+  /* line 383, ../scss/style.scss */
   .entertainment {
     float: left;
     width: 40%;
     line-height: 1.4;
   }
 
-  /* line 388, ../scss/style.scss */
+  /* line 390, ../scss/style.scss */
   .details {
     float: right;
     width: 40%;
     padding-bottom: 90px;
   }
-  /* line 393, ../scss/style.scss */
+  /* line 395, ../scss/style.scss */
   .details h3 {
     margin-bottom: 0;
   }
 
-  /* line 398, ../scss/style.scss */
+  /* line 400, ../scss/style.scss */
   .address {
     margin-bottom: 15px;
   }
-  /* line 400, ../scss/style.scss */
+  /* line 402, ../scss/style.scss */
   .address .streetaddress {
     float: left;
     width: 50%;
   }
-  /* line 404, ../scss/style.scss */
+  /* line 406, ../scss/style.scss */
   .address .links {
     float: left;
     margin-left: 3%;
     width: 30%;
   }
 
-  /* line 413, ../scss/style.scss */
+  /* line 415, ../scss/style.scss */
   .bluebox h2 {
     margin-top: 0;
   }
 
-  /* line 418, ../scss/style.scss */
+  /* line 420, ../scss/style.scss */
   .register_now .button {
     width: 25%;
     margin: 0 auto;
   }
 
-  /* line 424, ../scss/style.scss */
+  /* line 426, ../scss/style.scss */
   .days {
     width: 35%;
   }
-  /* line 426, ../scss/style.scss */
+  /* line 428, ../scss/style.scss */
   .days li {
     margin: 15px,auto;
   }
 }
 @media screen and (min-width: 900px) {
-  /* line 436, ../scss/style.scss */
+  /* line 438, ../scss/style.scss */
   .sponsors {
     width: 45%;
   }
