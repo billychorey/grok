@@ -21,7 +21,7 @@ dayButtons.on("click", function( e ){
 
 divName.hide();
 
-$( ".d1" ).fadeIn( 1000 );
+$( ".d1" ).fadeIn( 1000 )
 
 
 
