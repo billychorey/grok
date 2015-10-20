@@ -21,6 +21,8 @@ $blue: #046380;
 }
 /***** CLEARFIX is applied to the parent of floated elements *************/
 /*************************************************************************/
+// scrollTop element to slow transition
+// ? embed svg's in html and give hover
 
 	.clearfix {
 	    zoom: 1;
@@ -247,6 +249,7 @@ $blue: #046380;
 			padding:0;
 		}
 		.days{
+			position:relative;
 			background:#eee;
 			padding:4%;
 			margin-bottom:20px;
@@ -263,6 +266,13 @@ $blue: #046380;
 				p{
 					margin-top:0;
 					margin-bottom:.5em;
+				}
+				.d1{
+					img{
+						position:relative;
+						left:15%;
+						top:0;
+					}
 				}
 		}
 	}
@@ -336,7 +346,7 @@ $blue: #046380;
 
 	.featured_content{
 		
-		background: url(../img/caveman2.jpg), $green;
+		background: url(../img/caveman3.jpg), $green;
 		background-attachment: fixed;
     	background-size: cover;
     	background-position:center;
@@ -423,12 +433,12 @@ $blue: #046380;
 			}
 	}
 
-	.days{
+	/*.days{
 		width:35%;
 			li{
 				margin:15px,auto;
 			}
-	}
+	}*/
 
 
 }
