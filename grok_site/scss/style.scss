@@ -1,5 +1,7 @@
 @import "compass";
 @import url(https://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
 $green: #002f2f;
 $tan: #A7A37E;
 $yellow: #EFECCA;
@@ -70,6 +72,7 @@ $blue: #046380;
 		background:#002F2F;
 		padding:4%;
 		margin:0 auto;
+		
 
 		.button{
 			margin-bottom:20px;
@@ -131,14 +134,17 @@ $blue: #046380;
 		padding:40px 0;
 			h1{
 				margin-top:0;
+				font-family: 'Bree Serif', serif;
+				font-size:3em;
 			}
 			p{
 				margin-bottom:40px;
 			}
 			a{
 				color:$orange;
-				border:solid 2px $orange;
-				padding:4%;
+				border:solid 3px $orange;
+				padding:10px 10%;
+				font-weight:bolder;
 			}
 	}
 	.descriptions{
@@ -441,6 +447,13 @@ $blue: #046380;
 	}*/
 
 
+}
+
+.hand_arrow{
+	width: 100px;
+	border: 10px solid green;
+	position: absolute;
+	top: -300px;
 }
 
 @media screen and (min-width: 900px) {
