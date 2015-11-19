@@ -113,12 +113,7 @@ $blue: #046380;
 		}
 		
 
-		// .grok_header_logo{
-		// 	display:inline-block;
-		// 	width:25%;
-		// 	padding:20px 6.1%;
-		// 	vertical-align:top;
-		// }
+		
 		.header_right{
 			float:right;
 			width:40%;
@@ -142,10 +137,7 @@ $blue: #046380;
 		}		
 	}
 
-	.featured_content{
-		// background: url(../img/caveman.jpg);
-		// background-size:100%;
-		
+	.featured_content{	
 		margin:0 auto;
 		background:$blue;
 		background-size: 100px 100px;
@@ -168,6 +160,7 @@ $blue: #046380;
 				padding:10px 10%;
 				font-weight:bolder;
 			}
+
 	}
 	.descriptions{
 		background:$yellow;
@@ -207,11 +200,6 @@ $blue: #046380;
 					li{
 						display:inline-block;
 						width:15%;
-						
-						a{
-							// padding:4%;
-							
-						}
 					}
 				}
 			}
@@ -286,20 +274,11 @@ $blue: #046380;
 			padding:0;
 		}
 		.days{
-			// position:relative;
-
 			background:#eee;
 			padding:4%;
 			margin-bottom:20px;
 			box-shadow: -10px 10px 5px #9b9672;
-				// .d1{
-				// 	float:left;
-				// 	width:30%;
-				// }
-				// img{
-				// 	float:right;
-				// 	width:30%;
-				// }
+		
 				li{
 					margin-bottom:10px;
 					padding:2%;
@@ -317,13 +296,7 @@ $blue: #046380;
 					margin-top:0;
 					margin-bottom:3px;
 				}
-				// .d1{
-				// 	img{
-				// 		position:relative;
-				// 		left:15%;
-				// 		top:0;
-				// 	}
-				// }
+				
 		}
 	}
 	.grey{
@@ -356,6 +329,7 @@ $blue: #046380;
 		background:$green;
 		color:$yellow;
 		padding:40px 0;
+
 
 		ul{
 				
@@ -398,7 +372,7 @@ $blue: #046380;
 		display: block;
 		padding: 0;
 		margin: 0;
-		// transition: 0.5s background-position linear;
+		
 
 		&:hover{
 			background-position: center -50px;
@@ -414,7 +388,7 @@ $blue: #046380;
 		display: block;
 		padding: 0;
 		margin: 0;
-		// transition: 0.5s background-position linear;
+		
 
 		&:hover{
 			background-position: center -50px;
@@ -430,7 +404,7 @@ $blue: #046380;
 		display: block;
 		padding: 0;
 		margin: 0;
-		// transition: 0.5s background-position linear;
+		
 
 		&:hover{
 			background-position: center -37px;
@@ -446,7 +420,7 @@ $blue: #046380;
 		display: block;
 		padding: 0;
 		margin: 0;
-		// transition: 0.5s background-position linear;
+		
 
 		&:hover{
 			background-position: center -30px;
@@ -456,7 +430,6 @@ $blue: #046380;
 
 
 
-	
 
 
 
@@ -539,7 +512,6 @@ $blue: #046380;
 			}
 			.links{
 				float:left;
-				// margin-left:3%;
 				width:38%;
 			}
 
@@ -551,7 +523,6 @@ $blue: #046380;
 				display:inline-block;
 				width:36%;
 				vertical-align: middle;
-				// margin-right:4%;
 			}
 	}
 
@@ -567,14 +538,12 @@ $blue: #046380;
 			}
 	}
 
-	/*.days{
-		width:35%;
-			li{
-				margin:15px,auto;
-			}
-	}*/
-	
 
+	
+	footer ul li{
+		width:10%;
+
+	}
 }
 	
 	
